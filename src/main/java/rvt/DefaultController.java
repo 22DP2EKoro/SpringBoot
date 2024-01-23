@@ -14,7 +14,8 @@ public class DefaultController {
         return "index";
     }
     @GetMapping(value = "/test")
-    ModelAndView testAction(){
+    ModelAndView testAction()
+    {
 
 
         
